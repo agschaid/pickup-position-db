@@ -1930,3 +1930,32 @@
       value: 27.7
     - description: "Coil 2"
       value: 29.5
+
+- brand: Warwick
+  make: Fortress Flashback (2TEK bridge)
+  year: 1996
+  scale: 34
+  reporter: quarkfrosch
+  measurements:
+    - description: "J: Neck"
+      value: 27.1
+    - description: "2J: Bridge, Coil 1"
+      value: 37.1
+    - description: "2J: Bridge, Coil 2"
+      value: 38.9
+      
+- brand: Fender
+  make: Modern Player Jazz Bass V
+  year: 2015
+  scale: 34
+  reporter: quarkfrosch
+  measurements:
+    - description: "Neck, Coil 1"
+      value: 26.8
+    - description: "Neck, Coil 2"
+      value: 28.5
+    - description: "Bridge, Coil 1"
+      value: 35.8
+    - description: "Bridge, Coil 2"
+      value: 37.5
+    

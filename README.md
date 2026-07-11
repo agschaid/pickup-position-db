@@ -8,7 +8,7 @@ We use the [Hinode theme](https://gethinode.com/) because its [data tables](http
 
 The core data (in a normalized form) is stored in the [data.yaml](./data.yaml) file. A generator (written in Haskell) uses it to fill a data table and merges it with [templates](./ze-ueber-generator/templates) to fill the (index.md)[./content/_index.md] which in turn will be picked up by Hugo to create the final website.
 
-## Reqiurements
+## Requirements
 
  * Hugo (tested with version v0.150.0)
  * Haskell / Cabal (tested with ghc 9.0.2 and cabal 3.12.1.0. Newer versions will most likely work)
@@ -23,7 +23,7 @@ You'll most likely just want to run `make` in order to:
  * clean up the old site
  * generate the site
 
-After generating the new conten you can also run
+After generating the new content you can also run
 ```
 hugo server
 ```
@@ -41,7 +41,7 @@ The structure of the elements is:
 
  * **brand**: Text. Mandatory. The brand of the bass.
  * **make**: Text. Mandatory. The make of the bass.
- * **scale**: Numeric. Optional. The scale of the bass in inch. If ommited every measurement requires a **scale** element.
+ * **scale**: Numeric. Optional. The scale of the bass in inch. If omitted every measurement requires a **scale** element.
  * **reporter**: Text. Optional. The name/handle of the person who reported the measurement.
  * **comment**: Text. Optional. Global comment on the bass.
  * **year**: Text. Optional. The year the bass was made. _Currently not used. Will be rendered into the make._
